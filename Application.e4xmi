@@ -8,12 +8,12 @@
     </mainMenu>
     <trimBars xmi:id="_hVyjUMsGEeOsQtMdTw7cAA" elementId="test.trimbar.0"/>
   </children>
-  <handlers xmi:id="_ekeSQMsGEeOsQtMdTw7cAA" elementId="test.handler.0" contributionURI="bundleclass://test/net.teufel.di.ErzeugeHandler" command="_bFGoYMsGEeOsQtMdTw7cAA"/>
+  <handlers xmi:id="_ekeSQMsGEeOsQtMdTw7cAA" elementId="test.handler.0" contributionURI="bundleclass://di-article-sample/net.teufel.di.ErzeugeHandler" command="_bFGoYMsGEeOsQtMdTw7cAA"/>
   <rootContext xmi:id="_K4nrKcrkEeOsQtMdTw7cAA" elementId="org.eclipse.ui.contexts.dialogAndWindow" name="In Dialog and Windows">
     <children xmi:id="_K4nrKsrkEeOsQtMdTw7cAA" elementId="org.eclipse.ui.contexts.window" name="In Windows"/>
     <children xmi:id="_K4nrK8rkEeOsQtMdTw7cAA" elementId="org.eclipse.ui.contexts.dialog" name="In Dialogs"/>
   </rootContext>
-  <descriptors xmi:id="_OQcNoMsHEeOsQtMdTw7cAA" elementId="test.partdescriptor.0" contributionURI="bundleclass://test/net.teufel.di.PartImpl"/>
+  <descriptors xmi:id="_OQcNoMsHEeOsQtMdTw7cAA" elementId="test.partdescriptor.0" contributionURI="bundleclass://di-article-sample/net.teufel.di.PartImpl"/>
   <commands xmi:id="_bFGoYMsGEeOsQtMdTw7cAA" elementId="test.command.0" commandName="Erzeuge"/>
   <addons xmi:id="_K4nrIsrkEeOsQtMdTw7cAA" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
   <addons xmi:id="_K4nrI8rkEeOsQtMdTw7cAA" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
