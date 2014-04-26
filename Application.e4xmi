@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_K4nrIMrkEeOsQtMdTw7cAA" elementId="org.eclipse.e4.ide.application" bindingContexts="_K4nrKcrkEeOsQtMdTw7cAA">
-  <children xsi:type="basic:TrimmedWindow" xmi:id="_K4nrIcrkEeOsQtMdTw7cAA" label="test" width="500" height="400">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_K4nrIcrkEeOsQtMdTw7cAA" label="di-article-sample" width="500" height="400">
     <mainMenu xmi:id="_sjRIYMsGEeOsQtMdTw7cAA" elementId="test.menu.0">
       <children xsi:type="menu:Menu" xmi:id="_uBMe8MsGEeOsQtMdTw7cAA" elementId="test.menu.1" label="File">
-        <children xsi:type="menu:HandledMenuItem" xmi:id="_vZ7McMsGEeOsQtMdTw7cAA" elementId="test.handledmenuitem.0" label="Erzeuge" command="_bFGoYMsGEeOsQtMdTw7cAA"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_vZ7McMsGEeOsQtMdTw7cAA" elementId="test.handledmenuitem.0" label="Erzeuge mit Creatable" command="_bFGoYMsGEeOsQtMdTw7cAA"/>
       </children>
     </mainMenu>
     <trimBars xmi:id="_hVyjUMsGEeOsQtMdTw7cAA" elementId="test.trimbar.0"/>
   </children>
-  <handlers xmi:id="_ekeSQMsGEeOsQtMdTw7cAA" elementId="test.handler.0" contributionURI="bundleclass://di-article-sample/net.teufel.di.ErzeugeHandler" command="_bFGoYMsGEeOsQtMdTw7cAA"/>
+  <handlers xmi:id="_ekeSQMsGEeOsQtMdTw7cAA" elementId="test.handler.0" contributionURI="bundleclass://di-article-sample/net.teufel.di.ErzeugeMitCreatableHandler" command="_bFGoYMsGEeOsQtMdTw7cAA"/>
   <rootContext xmi:id="_K4nrKcrkEeOsQtMdTw7cAA" elementId="org.eclipse.ui.contexts.dialogAndWindow" name="In Dialog and Windows">
     <children xmi:id="_K4nrKsrkEeOsQtMdTw7cAA" elementId="org.eclipse.ui.contexts.window" name="In Windows"/>
     <children xmi:id="_K4nrK8rkEeOsQtMdTw7cAA" elementId="org.eclipse.ui.contexts.dialog" name="In Dialogs"/>
   </rootContext>
   <descriptors xmi:id="_OQcNoMsHEeOsQtMdTw7cAA" elementId="test.partdescriptor.0" contributionURI="bundleclass://di-article-sample/net.teufel.di.PartImpl"/>
-  <commands xmi:id="_bFGoYMsGEeOsQtMdTw7cAA" elementId="test.command.0" commandName="Erzeuge"/>
+  <commands xmi:id="_bFGoYMsGEeOsQtMdTw7cAA" elementId="test.command.0" commandName="Erzeuge mit Creatable"/>
   <addons xmi:id="_K4nrIsrkEeOsQtMdTw7cAA" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
   <addons xmi:id="_K4nrI8rkEeOsQtMdTw7cAA" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
   <addons xmi:id="_K4nrJMrkEeOsQtMdTw7cAA" elementId="org.eclipse.e4.ui.bindings.service" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>

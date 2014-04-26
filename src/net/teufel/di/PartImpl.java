@@ -1,10 +1,7 @@
 package net.teufel.di;
 
-import java.text.SimpleDateFormat;
-import java.util.Date;
 
 import javax.inject.Inject;
-
 import org.eclipse.swt.SWT;
 import org.eclipse.swt.events.SelectionAdapter;
 import org.eclipse.swt.events.SelectionEvent;

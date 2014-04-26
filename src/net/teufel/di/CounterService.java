@@ -1,10 +1,11 @@
 package net.teufel.di;
 
-import javax.inject.Singleton;
-
 import org.eclipse.e4.core.di.annotations.Creatable;
 
-@Creatable @Singleton
+// Wenn Sie nur eine einzige Instanz des CounterService wünschen, 
+// aktivieren Sie nachfolgende Annotation:
+//@Singleton
+@Creatable 
 public class CounterService {
 
 	private int count = 0;

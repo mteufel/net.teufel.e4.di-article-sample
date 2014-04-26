@@ -7,7 +7,7 @@ import org.eclipse.e4.ui.model.application.MApplication;
 import org.eclipse.e4.ui.workbench.modeling.EPartService;
 
 
-public class ErzeugeHandler {
+public class ErzeugeMitCreatableHandler {
 
 	@Inject EPartService partService;
 	@Inject MApplication app;
@@ -15,6 +15,7 @@ public class ErzeugeHandler {
 	@Execute
 	public void execute() {
 		
+		app.getChildren().get(0).getChildren().clear();
 		app.getChildren().get(0).getChildren().add(partService.createPart("test.partdescriptor.0"));
 		app.getChildren().get(0).getChildren().add(partService.createPart("test.partdescriptor.0"));
 		app.getChildren().get(0).getChildren().add(partService.createPart("test.partdescriptor.0"));

@@ -1,4 +1,12 @@
 net.teufel.e4.di-article-sample
 ===============================
 
-Beispiele für den Artikel "Injiziert, Infiziert, Fasziniert - Eclipse 4 Dependency Injection für Fortgeschrittene", Eclipse Magazin 04/2014
+Beispiele fuer den Artikel:
+
+"Injiziert, Infiziert, Fasziniert - Eclipse 4 Dependency Injection fuer Fortgeschrittene" 
+
+Eclipse Magazin 04/2014
+
+
+(w) 04/2014 Marc Teufel
+(c) 2014 Software & Support 
