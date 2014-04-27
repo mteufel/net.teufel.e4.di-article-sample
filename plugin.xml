@@ -11,6 +11,10 @@
                name="appName"
                value="di-article-sample">
          </property>
+         <property
+			name="lifeCycleURI"
+			value="bundleclass://di-article-sample/net.teufel.di.handlers.StartupLifeCycleHandler">
+		 </property>
       </product>
    </extension>
  

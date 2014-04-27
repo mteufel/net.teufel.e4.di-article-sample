@@ -1,7 +1,8 @@
-package net.teufel.di;
+package net.teufel.di.parts;
 
 
 import javax.inject.Inject;
+import net.teufel.di.services.CounterService;
 import org.eclipse.swt.SWT;
 import org.eclipse.swt.events.SelectionAdapter;
 import org.eclipse.swt.events.SelectionEvent;
@@ -10,12 +11,15 @@ import org.eclipse.swt.widgets.Button;
 import org.eclipse.swt.widgets.Composite;
 import org.eclipse.swt.widgets.Text;
 
-public class PartImpl {
+public class PartMitCreatable {
+	
 	private Text text;
-	@Inject CounterService counterService;
-
+	
 	@Inject
-	public PartImpl(Composite parent) {
+	private CounterService counterService;
+	
+	@Inject
+	public PartMitCreatable(Composite parent) {
 
 		Composite composite = new Composite(parent, SWT.NONE);
 		composite.setLayout(new RowLayout(SWT.HORIZONTAL));
@@ -33,7 +37,7 @@ public class PartImpl {
 		incrementButton.addSelectionListener(new SelectionAdapter() {
 			@Override
 			public void widgetSelected(SelectionEvent e) {
-				counterService.increment();
+				counterService.incrementCounter();
 				text.setText(""+counterService.getCounter());
 			}
 		});
